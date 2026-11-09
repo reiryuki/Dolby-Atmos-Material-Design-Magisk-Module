@@ -273,8 +273,8 @@ done
 
 # patch audio effects
 LIB=libdlbatmos.so
-LIBNAME=dlbatmos
-NAME=dlbatmos
+LIBNAME=dlb_atmos
+NAME=dlb_atmos
 UUID=9d4921da-8225-4f29-aefa-39537a041337
 RMVS="$LIB $LIBNAME $NAME $UUID"
 archdir
@@ -320,14 +320,6 @@ if [ "$ARCHDIR" ]; then
 #g    sed -i "/<stream type=\"rerouting\">/a\            <apply effect=\"$NAME\"\/>" $MODAEX
   done
 fi
-
-
-
-
-
-
-
-
 
 
 

@@ -22,11 +22,3 @@ done
 remove_sepolicy_rule
 
 
-
-
-
-
-
-
-
-

@@ -1,8 +1,8 @@
 id=Atmos
-name=Dolby Atmos Magic Revision
-version=v4.8
-versionCode=48
+name=Dolby Atmos Material Design
+version=v4.9
+versionCode=49
 author=Rei Ryuki the Fixer
-description=Equalizer global type sound effect ported by Little Monk reworked for any armeabi-v7a or arm64-v8a architecture, Android 4.2 (SDK 17) and up. Powered by Dolby Surround.
+description=Dolby Surround equalizer global type sound effect for any armeabi-v7a or arm64-v8a architecture, Android 4.2 (SDK 17) and up.
 
 

@@ -1,23 +1,37 @@
-# Dolby Atmos Magic Revision Magisk Module
+# Dolby Atmos Material Design Magisk Module
 
 ## DISCLAIMER
-- Dolby apps and blobs are owned by Dolby™.
-- The MIT license specified here is for the Magisk Module only, not for Dolby apps and blobs.
+- Dolby app and blobs are owned by Dolby™.
+- The MIT license specified here is for the Magisk Module only, not for Dolby app and blobs.
 
-## Descriptions
-- Dolby Surround equalizer sound effect ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
-- Global type sound effect
+## Description
+Dolby Surround equalizer global type sound effect ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
 
 ## Sources
 - Dolby Magic MD2 Magisk Module by Little Monk
 - https://apkmirror.com com.dolby DAX1-1.9.3_r1 by HTC Corporation
-- libmagiskpolicy.so: Magisk (stable) 30.7 (30700)
+- libmagiskpolicy.so: Magisk (debug) 31.0 (31000)
 
-## Changelog
+## Screenshots
+https://t.me/androidryukimodsdiscussions/78576
 
-v4.8
+## Requirements
+- armeabi-v7a or arm64-v8a with armeabi-v7a support architecture
+- 32 bit HIDL audio service
+- Android 4.2 (SDK 17) and up
+- Magisk or Kitsune Mask or KernelSU or Apatch installed
+
+## Download Links and Changelog
+
+v4.9 https://github.com/reiryuki/Dolby-Atmos-Material-Design-Magisk-Module
+- Atmos.apk: Fix post process mode: Bypass release method if using stream.mode=m optional
+- Update libmagiskpolicy.so from Magisk (debug) 31.0 (31000)
+- Change module name (formerly Dolby Atmos Magic Revision)
+- Add a new optional dolby.mod_xml to let users to use any modified/custom dlb-default.xml. Please read Optionals below.
+
+v4.8 https://move2link.co/44bb844
 - Atmos.apk
-  - Saves state and profiles at UI changes
+  - Saves states and profiles at UI changes
   - Add audio_server_restarted intent filter
 - Removes conflicted weird modules
 - Remove hardware services restarts (You can use https://github.com/reiryuki/Hardware-Services-Restarter-Magisk-Module instead)
@@ -57,29 +71,17 @@ v4.0
 - Allow installation in Android Emulator
 - Fix architecture detection
 
-v3.9
-- Using hardwareaudio instead of audio* for AUDIO64BIT detection
+## Download Tutorial
+https://t.me/ryukinotes/97
 
-## Screenshots
-https://t.me/androidryukimodsdiscussions/78576
-
-## Requirements
-- armeabi-v7a or arm64-v8a with armeabi-v7a support architecture
-- 32 bit HIDL audio service
-- Android 4.2 (SDK 17) and up
-- Magisk or Kitsune Mask or KernelSU or Apatch installed
-
-## Installation Guide & Download Link
+## Installation Guide
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
-- Install this module https://move2link.co/44bb844 via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Install AML Magisk Module https://t.me/ryukinotes/34 only if using any other else audio mod module
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
 - If you are using SUList, you need to allow list manually your home launcher app (enable show system apps) and reboot afterwards
 - If you have WiFi and sensors issues (fingerprint, proximity, gyroscope, etc.), then install https://github.com/reiryuki/Hardware-Services-Restarter-Magisk-Module also
-
-## Download Tutorial
-https://t.me/ryukinotes/97
 
 ## Optionals
 - https://t.me/ryukinotes/8
@@ -90,7 +92,7 @@ https://t.me/ryukinotes/97
 - https://t.me/ryukinotes/11
 - Global: https://t.me/ryukinotes/34
 
-## Support & Bug Report
+## Support and Bug Report
 - https://t.me/ryukinotes/54
 - If you don't do above, issues will be closed immediately
 
@@ -100,7 +102,7 @@ https://t.me/ryukinotes/97
 - https://t.me/androidryukimodsdiscussions
 - https://t.me/androidappsportdevelopment
 
-## Sponsors
+## Sponsors and Donation
 https://t.me/ryukinotes/25
 
 
