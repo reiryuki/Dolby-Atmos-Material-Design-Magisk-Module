@@ -23,7 +23,7 @@ https://t.me/androidryukimodsdiscussions/78576
 
 ## Download Links and Changelog
 
-v4.9 https://github.com/reiryuki/Dolby-Atmos-Material-Design-Magisk-Module
+v4.9 https://move2link.co/eede5bb
 - Atmos.apk: Fix post process mode: Bypass release method if using stream.mode=m optional
 - Update libmagiskpolicy.so from Magisk (debug) 31.0 (31000)
 - Change module name (formerly Dolby Atmos Magic Revision)
